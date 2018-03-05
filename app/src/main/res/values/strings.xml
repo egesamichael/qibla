@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">qibla</string>
+    <string name="app_logo">Application logo</string>
+
 </resources>
