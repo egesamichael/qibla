@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">qibla</string>
     <string name="app_logo">Application logo</string>
+    <string name="qibla_ly">Qibla.ly</string>
+    <string name="let_s_begin">Let\'s Begin</string>
 
 </resources>
