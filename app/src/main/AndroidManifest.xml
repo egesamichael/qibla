@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ManOrAutoSetup"></activity>
+        <activity android:name=".ManOrAutoSetup" />
+        <activity android:name=".ManualSetupActivity" />
+        <activity android:name=".AutomaticSetupActivity"></activity>
     </application>
 
 </manifest>

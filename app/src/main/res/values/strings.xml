@@ -1,7 +1,7 @@
 <resources>
+    <string name="qibla_ly">qibla</string>
     <string name="app_name">qibla</string>
     <string name="app_logo">Application logo</string>
-    <string name="qibla_ly">Qibla.ly</string>
     <string name="let_s_begin">Let\'s Begin</string>
-
+    <string name="setup_text_string">In order to begin, we need to  determine the best mode of  setup for you!</string>
 </resources>
