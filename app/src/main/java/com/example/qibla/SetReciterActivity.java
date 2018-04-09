@@ -6,24 +6,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ManualSetupActivity extends AppCompatActivity {
+public class SetReciterActivity extends AppCompatActivity {
 
-    Button save_location_button;
+    Button setReciterButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_manual_setup);
+        setContentView(R.layout.activity_set_reciter);
 
-        save_location_button = findViewById(R.id.saveLocationButton);
+        setReciterButton = findViewById(R.id.set_reciter_button);
 
-        save_location_button.setOnClickListener(new View.OnClickListener() {
+        setReciterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Initiate next activity to choose automatic or manual setup of app.
-                Intent intent = new Intent(ManualSetupActivity.this, SetPrayerTimesActivity.class);
+                Intent intent = new Intent(SetReciterActivity.this, MainPrayerTimesPageActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 }

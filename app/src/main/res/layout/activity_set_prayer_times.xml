@@ -4,60 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/coralBackground"
-    tools:context="com.example.qibla.MainActivity">
+    android:background="@color/pinkCoralBackground"
+    tools:context="com.example.qibla.SetPrayerTimesActivity">
 
     <TextView
-        android:id="@+id/qibla_name"
+        android:id="@+id/location_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/qibla_ly"
-        android:textSize="25sp"
-        android:textColor="@color/coralText"
-        android:textStyle="bold"
+        android:text="Prayer Times"
+        android:textColor="@color/darkCoral"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintVertical_bias="0.078" />
 
-    <ImageView
-        android:id="@+id/app_logo"
-        android:layout_width="198dp"
-        android:layout_height="312dp"
+    <TextView
+        android:id="@+id/set_location_description"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:contentDescription="@string/app_logo"
+        android:text="@string/setup_text_string"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@mipmap/logo" />
+        app:layout_constraintVertical_bias="0.18" />
 
     <Button
-        android:id="@+id/app_init_button"
-        android:layout_width="100dp"
-        android:layout_height="51dp"
+        android:id="@+id/set_prayers_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@color/coralText"
-        android:text="@string/let_s_begin"
-        android:textColor="@color/white"
+        android:text="Set Notifications"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/qibla_name"
-        app:layout_constraintVertical_bias="0.026" />
-
-
-</android.support.constraint.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+    </android.support.constraint.ConstraintLayout>

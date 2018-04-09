@@ -18,7 +18,13 @@
         </activity>
         <activity android:name=".ManOrAutoSetup" />
         <activity android:name=".ManualSetupActivity" />
-        <activity android:name=".AutomaticSetupActivity"></activity>
+        <activity android:name=".AutomaticSetupActivity" />
+        <activity
+            android:name=".SetPrayerTimesActivity"
+            android:label="@string/title_activity_set_prayer_times"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SetReciterActivity" />
+        <activity android:name=".MainPrayerTimesPageActivity"></activity>
     </application>
 
 </manifest>

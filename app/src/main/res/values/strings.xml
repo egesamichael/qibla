@@ -4,4 +4,7 @@
     <string name="app_logo">Application logo</string>
     <string name="let_s_begin">Let\'s Begin</string>
     <string name="setup_text_string">In order to begin, we need to  determine the best mode of  setup for you!</string>
+    <string name="enter">Save location</string>
+    <string name="title_activity_set_prayer_times">SetPrayerTimesActivity</string>
+    <string name="set_prayer_times">Select the prayer times you would like to be notified about.</string>
 </resources>
