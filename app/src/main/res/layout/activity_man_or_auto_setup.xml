@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/coralBackground"
+    android:background="@drawable/main_bg_gradient"
     tools:context="com.example.qibla.ManOrAutoSetup">
 
 
@@ -38,12 +38,12 @@
         android:layout_marginTop="8dp"
         android:text="@string/setup_text_string"
         android:textAlignment="center"
-        android:textColor="@color/dark_teal"
+        android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/setupHeader"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
@@ -51,14 +51,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
         android:layout_marginTop="8dp"
-        android:text="Manual"
         android:background="@color/pastel_orange"
+        android:text="Manual"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
 
     <Button
         android:id="@+id/automaticButton"
@@ -75,6 +78,6 @@
         app:layout_constraintHorizontal_bias="0.295"
         app:layout_constraintStart_toEndOf="@+id/manualButton"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.508" />
+        app:layout_constraintVertical_bias="0.582" />
 
 </android.support.constraint.ConstraintLayout>

@@ -9,7 +9,6 @@ import android.widget.ViewFlipper;
 public class AutomaticSetupActivity extends AppCompatActivity {
 
     ViewFlipper icon_carousel;
-    boolean nextView = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +23,6 @@ public class AutomaticSetupActivity extends AppCompatActivity {
         for (int i= 0; i < icons.length; i++) {
             iconFlipper(icons[i]);
         }
-        nextView = true;
-
-        /*if (nextView == true) {
-            Intent intent = new Intent(AutomaticSetupActivity.this, MainPrayerTimesPageActivity.class);
-            startActivity(intent);
-        }*/
-
-
 
     }
     public void iconFlipper (int icon) {

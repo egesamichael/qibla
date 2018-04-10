@@ -9,12 +9,14 @@
     <color name="colorAccent">#FF4081</color>
     <color name="coralBackground">#FFE6D9</color>
     <color name="pinkCoralBackground">#FBDFDF</color>
-    <color name="coralText">#FF9696</color>
+    <color name="coralText">#e86565</color>
     <color name="teal">#72C8BE</color>
     <color name="dark_teal">#2D5F73</color>
+    <color name="lightdark_teal">#648B95</color>
     <color name="light_teal">#C9F6E1</color>
     <color name="pastel_orange">#FFCB98</color>
     <color name="darkCoral">#CE7777</color>
+    <color name="light_gray">#f7f7f7</color>
 
 
 </resources>
