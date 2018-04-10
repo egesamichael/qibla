@@ -15,6 +15,7 @@ public class ManOrAutoSetup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_man_or_auto_setup);
+        overridePendingTransition(R.anim.enter, R.anim.exit);
 
         // Link java object to defined XML button:
         manual_button = findViewById(R.id.manualButton);
