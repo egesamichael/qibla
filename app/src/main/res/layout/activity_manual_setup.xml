@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pinkCoralBackground"
+    android:background="@color/dark_teal"
     tools:context="com.example.qibla.ManualSetupActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Location"
-        android:textColor="@color/darkCoral"
+        android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.047" />
 
-    <EditText
+<!--    <EditText
         android:id="@+id/editText"
         android:layout_width="259dp"
         android:layout_height="37dp"
@@ -36,7 +36,7 @@
         android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter location here..."
+        android:text="   Enter location here..."
         android:textColor="@color/darkCoral"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +44,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.147" />
+-->
+
+    <searchable xmlns:android="http://schemas.android.com/apk/res/android"
+        android:label="@string/app_label"
+        android:hint="Enter your location"
+
+        android:layout_width="259dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="   Enter location here..."
+        android:textColor="@color/darkCoral"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147">
+    </searchable>
 
     <Button
         android:id="@+id/saveLocationButton"

@@ -14,6 +14,7 @@ public class ManualSetupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manual_setup);
+        overridePendingTransition(R.anim.slide_down, R.anim.stay);
 
         save_location_button = findViewById(R.id.saveLocationButton);
 
