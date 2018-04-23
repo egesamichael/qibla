@@ -20,12 +20,11 @@ public class SetPrayerTimesActivity extends AppCompatActivity {
 
         setPrayersButton = findViewById(R.id.set_prayers_button);
 
-
         setPrayersButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Initiate next activity to choose automatic or manual setup of app.
-                Intent intent = new Intent(SetPrayerTimesActivity.this, SetReciterActivity.class);
+                Intent intent = new Intent(SetPrayerTimesActivity.this, PrayerTimesActivity.class);
                 startActivity(intent);
             }
         });

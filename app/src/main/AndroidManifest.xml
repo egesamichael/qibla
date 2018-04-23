@@ -24,7 +24,9 @@
             android:label="@string/title_activity_set_prayer_times"
             android:theme="@style/AppTheme" />
         <activity android:name=".SetReciterActivity" />
-        <activity android:name=".MainPrayerTimesPageActivity"></activity>
+        <activity android:name=".MainPrayerTimesPageActivity" />
+        <activity android:name=".PrayerTimesActivity" />
+        <activity android:name=".QiblaCompassActivity"></activity>
     </application>
 
 </manifest>

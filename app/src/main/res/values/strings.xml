@@ -9,4 +9,7 @@
     <string name="set_prayer_times">Select the prayer times you would like to be notified about.</string>
     <string name="simple_as">Simple, as it should be.</string>
     <string name="app_descr">In an ever-changing world, Qibla nurtures a stress-free state of consciousness as you prepare for prayer. </string>
+    <string name="bt_set_prayers">Set Prayer Times</string>
+    <string name="next_prayer">Next Prayer</string>
+
 </resources>
