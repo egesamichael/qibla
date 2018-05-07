@@ -27,6 +27,7 @@
         <activity android:name=".MainPrayerTimesPageActivity" />
         <activity android:name=".PrayerTimesActivity" />
         <activity android:name=".QiblaCompassActivity"></activity>
+
     </application>
 
 </manifest>
