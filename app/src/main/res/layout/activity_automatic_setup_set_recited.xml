@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_teal"
-    tools:context="com.example.qibla.AutomaticSetupActivity">
+    tools:context="com.example.qibla.AutomaticSetupSetRecited">
 
     <ImageView
         android:id="@+id/location_image"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.332"
-        app:srcCompat="@mipmap/location_icon" />
+        app:srcCompat="@mipmap/mic_icon" />
 
     <TextView
         android:id="@+id/text_setting_location"
@@ -31,7 +31,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Setting Location"
+        android:text="Setting Reciter"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

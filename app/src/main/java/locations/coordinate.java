@@ -1,18 +1,18 @@
-package coords;
+package locations;
 
 /**
  * Created by fatimamohamed on 5/2/18.
  */
 
 public class coordinate {
-    int index;
-    String country;
-    String city;
-    double latitude;
-    double longitude;
-    double altitude;
+    private String index;
+    private String country;
+    private String city;
+    private String latitude;
+    private String longitude;
+    private String altitude;
 
-    public int getIndex() {
+    public String getIndex() {
         return this.index;
     }
 
@@ -24,19 +24,19 @@ public class coordinate {
         return this.city;
     }
 
-    public double getLatitude() {
+    public String getLatitude() {
         return this.latitude;
     }
 
-    public double getLongitude() {
+    public String getLongitude() {
         return this.longitude;
     }
 
-    public double getAltitude() {
+    public String getAltitude() {
         return this.altitude;
     }
 
-    public void setIndex(int index) {
+    public void setIndex(String index) {
         this.index = index;
     }
 
@@ -48,15 +48,15 @@ public class coordinate {
         this.city = city;
     }
 
-    public void setLatitude(double latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 
-    public void setLongitude(double longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
-    public void setAltitude(double altitude) {
+    public void setAltitude(String altitude) {
         this.altitude = altitude;
     }
 

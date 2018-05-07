@@ -26,8 +26,9 @@
         <activity android:name=".SetReciterActivity" />
         <activity android:name=".MainPrayerTimesPageActivity" />
         <activity android:name=".PrayerTimesActivity" />
-        <activity android:name=".QiblaCompassActivity"></activity>
-
+        <activity android:name=".QiblaCompassActivity" />
+        <activity android:name=".AutomaticSetupSetRecited" />
+        <activity android:name=".AutomaticSetupConfirmSetup"></activity>
     </application>
 
 </manifest>
