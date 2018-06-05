@@ -11,15 +11,15 @@
     <!-- Teals -->
     <color name="light_teal">#C9F6E1</color>
     <color name="teal">#72C8BE</color>
-    <color name="lightdark_teal">#648B95</color>
+    <color name="medium_teal">#648B95</color>
     <color name="dark_teal">#2D5F73</color>
 
     <!-- Corals -->
-    <color name="coralBackground">#FFE6D9</color>
-    <color name="pinkCoralBackground">#FBDFDF</color>
-    <color name="darkCoral">#CE7777</color>
+    <color name="coral">#FFE6D9</color>
+    <color name="pink_coral">#FBDFDF</color>
+    <color name="dark_coral">#CE7777</color>
     <color name="coralText">#e86565</color>
-    <color name="darker_coral">#BD5967</color>
+    <color name="darkest_coral">#BD5967</color>
 
     <!-- MISC -->
     <color name="pastel_orange">#FFCB98</color>
